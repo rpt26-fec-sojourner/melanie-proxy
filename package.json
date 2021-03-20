@@ -1,17 +1,30 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
+  "name": "rpt26-fec-dewitt-airbnb-proxy",
+  "description": "> Project description",
   "author": "",
-  "license": "",
+  "license": "ISC",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
+    "start": "nodemon index.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
-  }
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor.git"
+  },
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpt26-fec-sojourner/melanie-reviews-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rpt26-fec-sojourner/melanie-reviews-proxy/issues"
+  },
+  "homepage": "https://github.com/rpt26-fec-sojourner/melanie-reviews-proxy#readme"
 }

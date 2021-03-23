@@ -23,3 +23,11 @@ app.get('/:id', (req, res) => {
 
   res.sendFile(__dirname + '/client/src/index.html')
 });
+
+app.get('/', (req, res) => {
+  res.redirect('/1');
+});
+
+// app.get('/:id/photos', (req, res) => {
+//   res.redirect('http://localhost:3000/:id/photos');
+// })

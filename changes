@@ -1,3 +1,4 @@
 Justin's: change 'document.queryselector' to 'document.getElementById' and change the id to 'description
 Carolyn's: Replace all .config/.env references with hard coded port names, etc
 Note: I could try to create my own config/env files that match for the future
+Carolyn's: Changed a URL in the client/app to call localhost3000 instead of defaulting to 3000 so it would find photos

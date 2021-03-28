@@ -18,7 +18,6 @@ app.listen(port, () => {
 });
 
 app.get('/:id', (req, res) => {
-  console.log('this is being called')
   res.header('Access-Control-Allow-Origin', '*');
 
   res.sendFile(__dirname + '/client/src/index.html')

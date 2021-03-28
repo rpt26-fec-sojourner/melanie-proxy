@@ -7,4 +7,14 @@ class App extends React.Component {
     super(props);
     this.state = {}
   }
+
+  render () {
+    return (
+      <div>
+        <h1>THIS IS RENDERING WOOT</h1>
+      </div>
+    )
+  }
 }
+
+ReactDOM.render(<App />, document.getElementById('header'));

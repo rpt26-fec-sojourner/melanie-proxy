@@ -1,5 +1,7 @@
 ## MAC files ##
 .DS_Store
+Proxy_Test.pem
+login.sh
 
 ## NPM ##
 npm
